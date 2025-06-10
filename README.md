@@ -99,5 +99,5 @@ Zayn
 
 ## Links
 
-- GitHub: [https://github.com/Lizaixuan/AugmentFree](https://github.com/Lizaixuan/AugmentFree)
+- GitHub: [https://github.com/Lizaixuan/augment-free](https://github.com/Lizaixuan/augment-free)
 - Gitee: [https://gitee.com/BenLi19999/augment-free](https://gitee.com/BenLi19999/augment-free)

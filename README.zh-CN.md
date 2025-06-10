@@ -82,6 +82,7 @@ python build.py
 - 您遇到 Augment 身份验证问题
 - 扩展状态似乎已损坏
 - 您想要从干净的 Augment 环境开始
+- 您想重置机器码
 
 ## 贡献
 
@@ -97,5 +98,5 @@ Zayn
 
 ## 链接
 
-- GitHub: [https://github.com/Lizaixuan/AugmentFree](https://github.com/Lizaixuan/AugmentFree)
+- GitHub: [https://github.com/Lizaixuan/augment-free](https://github.com/Lizaixuan/augment-free)
 - Gitee: [https://gitee.com/BenLi19999/augment-free](https://gitee.com/BenLi19999/augment-free)
