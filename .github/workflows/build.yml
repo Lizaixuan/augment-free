@@ -43,11 +43,10 @@ jobs:
           fi
         shell: bash
 
-      - name: Create GitHub Release
+      - name: Upload to existing GitHub Release
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ github.ref_name }}
-          name: Release ${{ github.ref_name }}
           files: dist-out/*
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
