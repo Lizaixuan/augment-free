@@ -1,8 +1,9 @@
 name: Build Python Executables
 
 on:
-  release:
-    types: [published]
+  push:
+    tags:
+      - 'v*'
 
 jobs:
   build:
@@ -42,9 +43,11 @@ jobs:
           fi
         shell: bash
 
-      - name: Upload to GitHub Release
+      - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
         with:
+          tag_name: ${{ github.ref_name }}
+          name: Release ${{ github.ref_name }}
           files: dist-out/*
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
